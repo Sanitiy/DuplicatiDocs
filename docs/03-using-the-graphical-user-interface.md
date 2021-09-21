@@ -106,14 +106,21 @@ The wizard consists of 5 steps. In step 1 you can give the backup job a descript
 *****
 > ![](icon_important.png) Losing your encryption key will render your backup files useless and makes restore operations impossible. Always store your encryption key in a safe place, separated from your backup files and not on your computer that contains the Duplicati source files.
 
+
 *****
 
 Enter a descriptive name, Select the encryption type and specify a strong encryption key. Duplicati gives an indication of the strengthness of the key you entered. Optionally Duplicati can generate a strong encryption key for you.
 
 *****
-> ![](icon_important.png) Encryption can be disabled, but is strongly discouraged, especially if you upload your backup files over the internet to a public cloud storage solution. Click Next to continue.
+> ![](icon_important.png) Be aware that the encryption key can be read by anyone who has access to the backup source, so the chosen encryption key should avoid password reuse.
 
 *****
+*****
+> ![](icon_important.png) Encryption can be disabled, but is strongly discouraged, especially if you upload your backup files over the internet to a public cloud storage solution. 
+
+*****
+
+Click Next to continue.
 
 ![](ss_newbackup_02.png)
 
